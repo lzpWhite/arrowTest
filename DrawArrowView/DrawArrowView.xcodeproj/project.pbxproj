@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98DC78E41E7915AF00E702FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC78E31E7915AF00E702FA /* AppDelegate.swift */; };
+		98DC78E61E7915AF00E702FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC78E51E7915AF00E702FA /* ViewController.swift */; };
+		98DC78E91E7915AF00E702FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DC78E71E7915AF00E702FA /* Main.storyboard */; };
+		98DC78EB1E7915AF00E702FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DC78EA1E7915AF00E702FA /* Assets.xcassets */; };
+		98DC78EE1E7915AF00E702FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DC78EC1E7915AF00E702FA /* LaunchScreen.storyboard */; };
+		98DC78F91E7915AF00E702FA /* DrawArrowViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC78F81E7915AF00E702FA /* DrawArrowViewTests.swift */; };
+		98DC79041E7915AF00E702FA /* DrawArrowViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC79031E7915AF00E702FA /* DrawArrowViewUITests.swift */; };
+		98DC79121E7915C000E702FA /* LZPArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC79111E7915C000E702FA /* LZPArrowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98DC78F51E7915AF00E702FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98DC78D81E7915AE00E702FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98DC78DF1E7915AF00E702FA;
+			remoteInfo = DrawArrowView;
+		};
+		98DC79001E7915AF00E702FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98DC78D81E7915AE00E702FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98DC78DF1E7915AF00E702FA;
+			remoteInfo = DrawArrowView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98DC78E01E7915AF00E702FA /* DrawArrowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawArrowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DC78E31E7915AF00E702FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98DC78E51E7915AF00E702FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98DC78E81E7915AF00E702FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98DC78EA1E7915AF00E702FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98DC78ED1E7915AF00E702FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98DC78EF1E7915AF00E702FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DC78F41E7915AF00E702FA /* DrawArrowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawArrowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DC78F81E7915AF00E702FA /* DrawArrowViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawArrowViewTests.swift; sourceTree = "<group>"; };
+		98DC78FA1E7915AF00E702FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DC78FF1E7915AF00E702FA /* DrawArrowViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawArrowViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DC79031E7915AF00E702FA /* DrawArrowViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawArrowViewUITests.swift; sourceTree = "<group>"; };
+		98DC79051E7915AF00E702FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DC79111E7915C000E702FA /* LZPArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LZPArrowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98DC78DD1E7915AF00E702FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DC78F11E7915AF00E702FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DC78FC1E7915AF00E702FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98DC78D71E7915AE00E702FA = {
+			isa = PBXGroup;
+			children = (
+				98DC78E21E7915AF00E702FA /* DrawArrowView */,
+				98DC78F71E7915AF00E702FA /* DrawArrowViewTests */,
+				98DC79021E7915AF00E702FA /* DrawArrowViewUITests */,
+				98DC78E11E7915AF00E702FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98DC78E11E7915AF00E702FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98DC78E01E7915AF00E702FA /* DrawArrowView.app */,
+				98DC78F41E7915AF00E702FA /* DrawArrowViewTests.xctest */,
+				98DC78FF1E7915AF00E702FA /* DrawArrowViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98DC78E21E7915AF00E702FA /* DrawArrowView */ = {
+			isa = PBXGroup;
+			children = (
+				98DC78E31E7915AF00E702FA /* AppDelegate.swift */,
+				98DC78E51E7915AF00E702FA /* ViewController.swift */,
+				98DC79111E7915C000E702FA /* LZPArrowView.swift */,
+				98DC78E71E7915AF00E702FA /* Main.storyboard */,
+				98DC78EA1E7915AF00E702FA /* Assets.xcassets */,
+				98DC78EC1E7915AF00E702FA /* LaunchScreen.storyboard */,
+				98DC78EF1E7915AF00E702FA /* Info.plist */,
+			);
+			path = DrawArrowView;
+			sourceTree = "<group>";
+		};
+		98DC78F71E7915AF00E702FA /* DrawArrowViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				98DC78F81E7915AF00E702FA /* DrawArrowViewTests.swift */,
+				98DC78FA1E7915AF00E702FA /* Info.plist */,
+			);
+			path = DrawArrowViewTests;
+			sourceTree = "<group>";
+		};
+		98DC79021E7915AF00E702FA /* DrawArrowViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98DC79031E7915AF00E702FA /* DrawArrowViewUITests.swift */,
+				98DC79051E7915AF00E702FA /* Info.plist */,
+			);
+			path = DrawArrowViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98DC78DF1E7915AF00E702FA /* DrawArrowView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DC79081E7915AF00E702FA /* Build configuration list for PBXNativeTarget "DrawArrowView" */;
+			buildPhases = (
+				98DC78DC1E7915AF00E702FA /* Sources */,
+				98DC78DD1E7915AF00E702FA /* Frameworks */,
+				98DC78DE1E7915AF00E702FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawArrowView;
+			productName = DrawArrowView;
+			productReference = 98DC78E01E7915AF00E702FA /* DrawArrowView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98DC78F31E7915AF00E702FA /* DrawArrowViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DC790B1E7915AF00E702FA /* Build configuration list for PBXNativeTarget "DrawArrowViewTests" */;
+			buildPhases = (
+				98DC78F01E7915AF00E702FA /* Sources */,
+				98DC78F11E7915AF00E702FA /* Frameworks */,
+				98DC78F21E7915AF00E702FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98DC78F61E7915AF00E702FA /* PBXTargetDependency */,
+			);
+			name = DrawArrowViewTests;
+			productName = DrawArrowViewTests;
+			productReference = 98DC78F41E7915AF00E702FA /* DrawArrowViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98DC78FE1E7915AF00E702FA /* DrawArrowViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DC790E1E7915AF00E702FA /* Build configuration list for PBXNativeTarget "DrawArrowViewUITests" */;
+			buildPhases = (
+				98DC78FB1E7915AF00E702FA /* Sources */,
+				98DC78FC1E7915AF00E702FA /* Frameworks */,
+				98DC78FD1E7915AF00E702FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98DC79011E7915AF00E702FA /* PBXTargetDependency */,
+			);
+			name = DrawArrowViewUITests;
+			productName = DrawArrowViewUITests;
+			productReference = 98DC78FF1E7915AF00E702FA /* DrawArrowViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98DC78D81E7915AE00E702FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "刘志鹏";
+				TargetAttributes = {
+					98DC78DF1E7915AF00E702FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					98DC78F31E7915AF00E702FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98DC78DF1E7915AF00E702FA;
+					};
+					98DC78FE1E7915AF00E702FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98DC78DF1E7915AF00E702FA;
+					};
+				};
+			};
+			buildConfigurationList = 98DC78DB1E7915AE00E702FA /* Build configuration list for PBXProject "DrawArrowView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98DC78D71E7915AE00E702FA;
+			productRefGroup = 98DC78E11E7915AF00E702FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98DC78DF1E7915AF00E702FA /* DrawArrowView */,
+				98DC78F31E7915AF00E702FA /* DrawArrowViewTests */,
+				98DC78FE1E7915AF00E702FA /* DrawArrowViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98DC78DE1E7915AF00E702FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DC78EE1E7915AF00E702FA /* LaunchScreen.storyboard in Resources */,
+				98DC78EB1E7915AF00E702FA /* Assets.xcassets in Resources */,
+				98DC78E91E7915AF00E702FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DC78F21E7915AF00E702FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DC78FD1E7915AF00E702FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98DC78DC1E7915AF00E702FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DC79121E7915C000E702FA /* LZPArrowView.swift in Sources */,
+				98DC78E61E7915AF00E702FA /* ViewController.swift in Sources */,
+				98DC78E41E7915AF00E702FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DC78F01E7915AF00E702FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DC78F91E7915AF00E702FA /* DrawArrowViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DC78FB1E7915AF00E702FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DC79041E7915AF00E702FA /* DrawArrowViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98DC78F61E7915AF00E702FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98DC78DF1E7915AF00E702FA /* DrawArrowView */;
+			targetProxy = 98DC78F51E7915AF00E702FA /* PBXContainerItemProxy */;
+		};
+		98DC79011E7915AF00E702FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98DC78DF1E7915AF00E702FA /* DrawArrowView */;
+			targetProxy = 98DC79001E7915AF00E702FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98DC78E71E7915AF00E702FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DC78E81E7915AF00E702FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98DC78EC1E7915AF00E702FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DC78ED1E7915AF00E702FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98DC79061E7915AF00E702FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98DC79071E7915AF00E702FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98DC79091E7915AF00E702FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawArrowView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuzhipeng.DrawArrowView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		98DC790A1E7915AF00E702FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawArrowView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuzhipeng.DrawArrowView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		98DC790C1E7915AF00E702FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawArrowViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuzhipeng.DrawArrowViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawArrowView.app/DrawArrowView";
+			};
+			name = Debug;
+		};
+		98DC790D1E7915AF00E702FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawArrowViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuzhipeng.DrawArrowViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawArrowView.app/DrawArrowView";
+			};
+			name = Release;
+		};
+		98DC790F1E7915AF00E702FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DrawArrowViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuzhipeng.DrawArrowViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DrawArrowView;
+			};
+			name = Debug;
+		};
+		98DC79101E7915AF00E702FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DrawArrowViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuzhipeng.DrawArrowViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DrawArrowView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98DC78DB1E7915AE00E702FA /* Build configuration list for PBXProject "DrawArrowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DC79061E7915AF00E702FA /* Debug */,
+				98DC79071E7915AF00E702FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DC79081E7915AF00E702FA /* Build configuration list for PBXNativeTarget "DrawArrowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DC79091E7915AF00E702FA /* Debug */,
+				98DC790A1E7915AF00E702FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98DC790B1E7915AF00E702FA /* Build configuration list for PBXNativeTarget "DrawArrowViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DC790C1E7915AF00E702FA /* Debug */,
+				98DC790D1E7915AF00E702FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98DC790E1E7915AF00E702FA /* Build configuration list for PBXNativeTarget "DrawArrowViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DC790F1E7915AF00E702FA /* Debug */,
+				98DC79101E7915AF00E702FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98DC78D81E7915AE00E702FA /* Project object */;
+}
