@@ -67,7 +67,7 @@ class LZPArrowView: UIView {
                           radius: spaceRadio,
                           startAngle: CGFloat(M_PI_2 * 3.0),
                           endAngle: CGFloat(M_PI * 2.0),
-                          clockwise: true)
+                          clockwise: true) // true表示顺时针。false表示逆时针
         bezierPath.addLine(to: CGPoint(x: frame.size.width, y: frame.size.height - spaceRadio))
         // 右下角半圆
         bezierPath.addArc(withCenter: CGPoint(x: frame.size.width - spaceRadio, y: frame.size.height - spaceRadio),
